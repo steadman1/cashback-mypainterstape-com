@@ -1,50 +1,8 @@
-# React + TypeScript + Vite
+# Source Code for the Ponder Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ponder, an iOS Lucid Dream Journal app, has been a side project of mine for the better part of a year and a half. After completing the UI design mockups in Figma in the summer of 2023, finishing this project has been a constant battle of finding free time in my college schedule (in a good way, though (?)). However, I'm proud to finally have a working version of Ponder to show for my effort.
 
-Currently, two official plugins are available:
+I hope you enjoy [the website](https://ponder.mypainterstape.com) and check out the app! 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Contact Us
+Please feel free to reach out to me over [email](mailto:sjsteadman05@gmail.com)! I’d love to hear from you.
