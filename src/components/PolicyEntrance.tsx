@@ -6,7 +6,7 @@ import VideoAnimation from "./VideoAnimation";
 import Policy from '../objects/Policy';
 import replaceSpecialCharacters from '../replaceSpecialCharacters';
 
-const Privacy = () => {
+const PolicyEntrance = ({ name, policy, work }: { name: string, policy: Policy, work: Work }) => {
   const getHeight = () => {
     const topBarHeight = 0;
     return isMobile ? { height: `calc(100dvh - ${topBarHeight}px)` } : { height: `60dvh` };
@@ -16,12 +16,12 @@ const Privacy = () => {
 
   return (
     <div className='entrance-screen vstack leading'>
-      <OurWorkBar work={Work.ponderWork} color={Work.ponderWork.primaryTextColor.toRgbString()} fixed={false} />
+      <OurWorkBar work={work} color={work.primaryTextColor.toRgbString()} fixed={false} />
       <div className='hstack space-between'>
         <div style={{ maxWidth: "650px", margin: "0 16px 32px 16px" }}>
-          <h1 style={{ ...textStyle, fontWeight: "bold" }}>Privacy Policy</h1>
-          <h2 style={{ ...textStyle, fontWeight: "bold" }}>Last Updated: {replaceSpecialCharacters(Policy.ponderPrivacyPolicy.updated)}</h2>
-          {Policy.ponderPrivacyPolicy.content.map((section, index) => (
+          <h1 style={{ ...textStyle, fontWeight: "bold" }}>{ name }</h1>
+          <h4 style={{ ...textStyle, fontWeight: "bold" }}>Last Updated: {replaceSpecialCharacters(policy.updated)}</h4>
+          {policy.content.map((section, index) => (
             <div key={index}>
               <h2 style={{ ...textStyle, fontWeight: "bold" }}>{replaceSpecialCharacters(section.subtitle)}</h2>
               <p style={{ ...textStyle }}>{replaceSpecialCharacters(section.content)}</p>
@@ -44,4 +44,4 @@ const Privacy = () => {
   );
 }
 
-export default Privacy;
+export default PolicyEntrance;

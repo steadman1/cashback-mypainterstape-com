@@ -233,178 +233,208 @@ class Policy {
 
   static ponderTermsOfService = new Policy(
     "Ponder Terms of Service",
-    "October 3, 2024",
+    "October 4, 2024",
     [
       new PolicyContent(
-        "Acceptance of Terms",
-        `By downloading, installing, or using the Ponder mobile application (the "App"), you ("User" or "you") agree to be bound by these Terms of Service ("Terms") and our Privacy Policy. If you do not agree to these Terms, please do not use the App.`,
+        "AGREEMENT TO OUR LEGAL TERMS",
+        `We are Painter's Tape Studios, doing business as Ponder ("Company," "we," "us," "our"). We operate the mobile application Ponder: Lucid Dream Journal (the "App"), as well as any other related products and services that refer or link to these legal terms (collectively, the "Services").
+        You can contact us by email at hello@mypainterstape.com.
+        These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and Painter's Tape Studios, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
+        Notifications will be made through the Ponder iOS app.
+        The Services are intended for users who are at least 13 years of age. All users who are minors in the jurisdiction in which they reside (generally under the age of 18) must have the permission of, and be directly supervised by, their parent or guardian to use the Services. If you are a minor, you must have your parent or guardian read and agree to these Legal Terms prior to you using the Services.
+        We recommend that you print a copy of these Legal Terms for your records.`,
         []
       ),
       new PolicyContent(
-        "Description of Service",
-        `Ponder is a mobile application that allows users to record and analyze their dreams. Optional features include dream analysis and automatic title and motif generation, which utilize OpenAI's GPT API.`,
+        "OUR SERVICES",
+        `The information provided when using the Services is not intended for distribution to or use by any person or entity in any jurisdiction or country where such distribution or use would be contrary to law or regulation or which would subject us to any registration requirement within such jurisdiction or country. Accordingly, those persons who choose to access the Services from other locations do so on their own initiative and are solely responsible for compliance with local laws, if and to the extent local laws are applicable.
+        The Services are not tailored to comply with industry-specific regulations (Health Insurance Portability and Accountability Act (HIPAA), Federal Information Security Management Act (FISMA), etc.), so if your interactions would be subjected to such laws, you may not use the Services. You may not use the Services in a way that would violate the Gramm-Leach-Bliley Act (GLBA).`,
         []
       ),
       new PolicyContent(
-        "Eligibility",
-        `You must be at least 13 years old to use the App. By using the App, you represent and warrant that you meet the eligibility requirements.`,
+        "INTELLECTUAL PROPERTY RIGHTS",
+        `We are the owner or the licensee of all intellectual property rights in our Services, including all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics in the Services (collectively, the "Content"), as well as the trademarks, service marks, and logos contained therein (the "Marks").
+        Our Content and Marks are protected by copyright and trademark laws (and various other intellectual property rights and unfair competition laws) and treaties in the United States and around the world. The Content and Marks are provided in or through the Services "AS IS" for your personal, non-commercial use only.
+        Subject to your compliance with these Legal Terms, including the "PROHIBITED ACTIVITIES" section below, we grant you a non-exclusive, non-transferable, revocable license to:
+        - access the Services; and
+        - download or print a copy of any portion of the Content to which you have properly gained access, solely for your personal, non-commercial use.`,
         []
       ),
       new PolicyContent(
-        "Changes to Terms",
-        `We reserve the right to modify these Terms at any time. Changes will be effective immediately upon posting. Your continued use of the App after changes constitutes your acceptance of the new Terms.`,
-        []
-      ),
-      new PolicyContent(
-        "User Accounts",
-        `The App does not require you to create an account or provide personal identification information. All dream entries and related data are stored locally on your device unless you opt-in to certain features.`,
-        []
-      ),
-      new PolicyContent(
-        "Opt-In Features",
-        `Participation in dream analysis and automatic content generation is optional.`,
+        "USER REPRESENTATIONS",
+        "By using the Services, you represent and warrant that:",
         [
           new PolicySubContent(
-            `Opt-In Requirement: These features are optional and require your explicit consent.`
+            "You have the legal capacity and you agree to comply with these Legal Terms"
           ),
           new PolicySubContent(
-            `Data Sharing: If you opt-in, relevant content from your dream entries will be sent to OpenAI's GPT API for processing.`
+            "You are not under the age of 13"
           ),
           new PolicySubContent(
-            `Data Usage: OpenAI's use of your data is governed by their own privacy policy.`
+            "You are not a minor in the jurisdiction in which you reside, or if a minor, you have received parental permission to use the Services"
+          ),
+          new PolicySubContent(
+            "You will not access the Services through automated or non-human means, whether through a bot, script, or otherwise"
+          ),
+          new PolicySubContent(
+            "You will not use the Services for any illegal or unauthorized purpose"
+          ),
+          new PolicySubContent(
+            "Your use of the Services will not violate any applicable law or regulation"
           )
         ]
       ),
       new PolicyContent(
-        "Data Collection and Privacy",
-        `We collect non-personal information for advertising purposes. This may include device information and usage data. Unless you opt-in to the features mentioned above, no data is collected from your dream entries. For more information on how we collect and use data, please refer to our Privacy Policy.`,
+        "PRODUCTS",
+        `All products are subject to availability. We reserve the right to discontinue any products at any time for any reason. Prices for all products are subject to change.`,
         []
       ),
       new PolicyContent(
-        "User Responsibilities",
-        `You are responsible for ensuring that any information you provide is accurate and up-to-date. You are also responsible for maintaining the confidentiality and security of your device and any data stored on it.`,
+        "PURCHASES AND PAYMENT",
+        `All purchases for the Services, including subscriptions and in-app purchases, are processed exclusively through Apple and the Apple App Store. We do not handle any payments directly, and we do not collect or store your payment information.
+        
+        You agree to comply with Apple’s payment terms and policies as outlined in the Apple Media Services Terms and Conditions. All billing, payment processing, and related legal matters are governed by Apple, and we have no responsibility for any issues arising from payment processing or related disputes.
+      
+        Any applicable sales tax will be determined and collected by Apple, as required by law, based on the location of your purchase. All payments are subject to Apple’s payment policies and will be charged in the currency specified by the App Store at the time of purchase.`
+      ),
+
+      new PolicyContent(
+        "SUBSCRIPTIONS",
+        `Your subscription will continue and automatically renew unless canceled. You consent to our charging your payment method on a recurring basis until canceled. You can cancel your subscription via the iCloud account in the iOS App Store's Subscription menu. Fee changes may apply.`,
         []
       ),
       new PolicyContent(
-        "Prohibited Conduct",
-        `You agree not to:`,
+        "REFUNDS POLICY",
+        `All purchases made through the Services are processed by Apple via the Apple App Store. We do not handle payments or manage refunds directly. 
+      
+        As such, any requests for refunds must be submitted to Apple in accordance with their refund policies. Refunds are not guaranteed and are subject to Apple's discretion. Please refer to the Apple Media Services Terms and Conditions for more details on their refund process.
+      
+        All sales are considered final, and we do not provide refunds or returns for any purchases made through the Services.`,
+        []
+      ),
+      new PolicyContent(
+        "PROHIBITED ACTIVITIES",
+        `You may not access or use the Services for any purpose other than that for which we make the Services available. The Services may not be used in connection with any commercial endeavors except those specifically endorsed or approved by us.
+        You agree not to:`,
         [
           new PolicySubContent(
-            `- Use the App for any unlawful purpose.`
+            "Systematically retrieve data or other content from the Services"
           ),
           new PolicySubContent(
-            `- Transmit any content that is illegal, harmful, or objectionable.`
+            "Trick, defraud, or mislead us or other users"
           ),
           new PolicySubContent(
-            `- Attempt to interfere with the App's functionality or security.`
+            "Circumvent, disable, or interfere with security-related features"
+          ),
+          new PolicySubContent(
+            "Disparage, tarnish, or harm us or the Services"
+          ),
+          new PolicySubContent(
+            "Engage in unauthorized framing or linking to the Services."
           )
         ]
       ),
       new PolicyContent(
-        "Intellectual Property Rights",
-        `All content, features, and functionality of the App are owned by us or our licensors and are protected by intellectual property laws.`,
-        [
-          new PolicySubContent(
-            `Our Content: All content, features, and functionality of the App are owned by us or our licensors and are protected by intellectual property laws.`
-          ),
-          new PolicySubContent(
-            `Limited License: We grant you a non-exclusive, non-transferable license to use the App for personal, non-commercial purposes.`
-          )
-        ]
-      ),
-      new PolicyContent(
-        "User-Generated Content",
-        `You retain ownership of any content you create within the App.`,
-        [
-          new PolicySubContent(
-            `Ownership: You retain ownership of any content you create within the App.`
-          ),
-          new PolicySubContent(
-            `License to Us: By using the App's opt-in features, you grant us a license to use your content as necessary to provide those features.`
-          )
-        ]
-      ),
-      new PolicyContent(
-        "Third-Party Services",
-        `We may use third-party services to enhance the App.`,
-        [
-          new PolicySubContent(
-            `OpenAI's GPT API: If you opt-in to certain features, your data will be shared with OpenAI. We are not responsible for their services or policies.`
-          ),
-          new PolicySubContent(
-            `Advertising Partners: We may use third-party advertising services. We are not responsible for the content of advertisements or the actions of advertisers.`
-          )
-        ]
-      ),
-      new PolicyContent(
-        "Disclaimers",
-        `The App is provided on an "as-is" and "as-available" basis.`,
-        [
-          new PolicySubContent(
-            `As-Is Basis: The App is provided on an "as-is" and "as-available" basis.`
-          ),
-          new PolicySubContent(
-            `No Warranties: We disclaim all warranties, express or implied, including warranties of merchantability and fitness for a particular purpose.`
-          ),
-          new PolicySubContent(
-            `No Liability: We are not liable for any damages arising from your use of the App.`
-          )
-        ]
-      ),
-      new PolicyContent(
-        "Limitation of Liability",
-        `To the fullest extent permitted by law, in no event shall we be liable for any indirect, incidental, special, consequential, or punitive damages, or any loss of profits or revenues.`,
+        "USER GENERATED CONTRIBUTIONS",
+        "The Services do not allow users to submit or post content.",
         []
       ),
       new PolicyContent(
-        "Indemnification",
-        `You agree to indemnify and hold us harmless from any claims arising out of your use of the App, violation of these Terms, or infringement of any rights of a third party.`,
+        "CONTRIBUTION LICENSE",
+        `You agree that we may access, store, process, and use any information and personal data you provide, according to the Privacy Policy. By submitting suggestions or feedback regarding the Services, you agree that we can use and share such feedback for any purpose without compensation.`,
         []
       ),
       new PolicyContent(
-        "Termination",
-        `We reserve the right to terminate or suspend your access to the App at our discretion.`,
+        "MOBILE APPLICATION LICENSE",
+        `We grant you a revocable, non-exclusive, non-transferable license to install and use the App on devices you own, subject to these Legal Terms. You shall not decompile, reverse-engineer, or create derivative works from the App. Terms from the Apple Store or Google Play may also apply.`,
+        []
+      ),
+      new PolicyContent(
+        "THIRD-PARTY WEBSITES AND CONTENT",
+        `The Services may contain links to third-party websites and content. We are not responsible for any third-party websites or content, including accuracy, privacy practices, or any losses caused by accessing third-party services.`,
+        []
+      ),
+      new PolicyContent(
+        "ADVERTISERS",
+        `We allow advertisers to display their advertisements in certain areas of the Services. We provide the space for advertisements, but we have no relationship with the advertisers.`,
+        []
+      ),
+      new PolicyContent(
+        "SERVICES MANAGEMENT",
+        `We reserve the right to manage the Services, including monitoring for violations of these Legal Terms, refusing or limiting access to the Services, or removing content without notice.`,
+        []
+      ),
+      new PolicyContent(
+        "PRIVACY POLICY",
+        `We care about data privacy and security. Please review our Privacy Policy at https://ponder.mypainterstape.com/privacy. By using the Services, you agree to be bound by our Privacy Policy.`,
+        []
+      ),
+      new PolicyContent(
+        "TERM AND TERMINATION",
+        `These Legal Terms remain in full force while you use the Services. We may terminate your use of the Services or delete any content you posted at any time without warning.`,
+        []
+      ),
+      new PolicyContent(
+        "MODIFICATIONS AND INTERRUPTIONS",
+        `We reserve the right to change or remove the contents of the Services at any time without notice. We will not be liable for any interruptions or modifications to the Services.`,
+        []
+      ),
+      new PolicyContent(
+        "GOVERNING LAW",
+        `These Legal Terms and your use of the Services are governed by the laws of Virginia, without regard to its conflict of law principles.`,
+        []
+      ),
+      new PolicyContent(
+        "DISPUTE RESOLUTION",
+        `Any legal action shall be brought in state and federal courts located in Henrico, Virginia. Claims must be brought within one (1) year of the cause of action.`,
+        []
+      ),
+      new PolicyContent(
+        "CORRECTIONS",
+        `We reserve the right to correct any errors or inaccuracies in the Services at any time without notice.`,
+        []
+      ),
+      new PolicyContent(
+        "DISCLAIMER",
+        `The Services are provided "as-is" without warranties. We disclaim all warranties to the fullest extent permitted by law.`,
+        []
+      ),
+      new PolicyContent(
+        "LIMITATIONS OF LIABILITY",
+        `In no event will we be liable for any indirect, incidental, or consequential damages, even if advised of the possibility.`,
+        []
+      ),
+      new PolicyContent(
+        "INDEMNIFICATION",
+        `You agree to defend, indemnify, and hold us harmless from any loss, damage, or claim arising from your use of the Services.`,
+        []
+      ),
+      new PolicyContent(
+        "USER DATA",
+        `We maintain certain data transmitted to the Services for managing performance. You are solely responsible for all data you transmit.`,
+        []
+      ),
+      new PolicyContent(
+        "ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES",
+        `You consent to electronic communications and agree that electronic signatures and records satisfy any legal requirements.`,
+        []
+      ),
+      new PolicyContent(
+        "CALIFORNIA USERS AND RESIDENTS",
+        `You may contact the California Department of Consumer Affairs at 1625 North Market Blvd., Suite N 112, Sacramento, California 95834.`,
+        []
+      ),
+      new PolicyContent(
+        "MISCELLANEOUS",
+        `These Legal Terms constitute the entire agreement between you and us. Any failure to enforce any right or provision of these terms shall not operate as a waiver of such right or provision.`,
+        []
+      ),
+      new PolicyContent(
+        "CONTACT US",
+        "In order to resolve a complaint or to receive further information about the Services, please contact us at:",
         [
           new PolicySubContent(
-            `Termination by You: You may stop using the App at any time.`
-          ),
-          new PolicySubContent(
-            `Termination by Us: We may suspend or terminate your access to the App if you violate these Terms or for any other reason at our discretion.`
-          )
-        ]
-      ),
-      new PolicyContent(
-        "Governing Law",
-        `These Terms are governed by and construed in accordance with the laws of [Your Country/State], without regard to its conflict of law principles.`,
-        []
-      ),
-      new PolicyContent(
-        "Dispute Resolution",
-        `Any disputes arising under these Terms shall be resolved through binding arbitration in accordance with the rules of the [Arbitration Association].`,
-        []
-      ),
-      new PolicyContent(
-        "Severability",
-        `If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions shall remain in full force and effect.`,
-        []
-      ),
-      new PolicyContent(
-        "Entire Agreement",
-        `These Terms, along with the Privacy Policy, constitute the entire agreement between you and us regarding the use of the App.`,
-        []
-      ),
-      new PolicyContent(
-        "Contact Information",
-        `If you have any questions or concerns about these Terms, please contact us at:`,
-        [
-          new PolicySubContent(
-            `- Email: [Insert Email Address]`
-          ),
-          new PolicySubContent(
-            `- Address: [Insert Mailing Address]`
-          ),
-          new PolicySubContent(
-            `- Phone: [Insert Phone Number]`
+            "hello@mypainterstape.com"
           )
         ]
       )
