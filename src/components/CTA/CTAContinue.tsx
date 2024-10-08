@@ -6,10 +6,11 @@ import HoverTranslateButton from "../HoverTranslateButton";
 
 function CTAContinue({ works, workIndex, setWorkIndex, detailIndex, setDetailIndex, lockScroll, setLockScroll }: { works: Work[], workIndex: number, setWorkIndex: React.Dispatch<React.SetStateAction<number>>, detailIndex: number, setDetailIndex: React.Dispatch<React.SetStateAction<number>>, lockScroll: boolean, setLockScroll: React.Dispatch<React.SetStateAction<boolean>> }) {
     const handleForward = () => {
-        if (!lockScroll) {
-            setLockScroll(true);
-            return;
-        }
+        // CAUSES DOUBLE CLICK BUG ON SINGLE WORKS
+        // if (!lockScroll) {
+        //     setLockScroll(true);
+        //     return;
+        // }
 
         if ((workIndex + 1) >= works.length && (detailIndex + 1) >= works[workIndex].details.length) {
             setLockScroll(false);
