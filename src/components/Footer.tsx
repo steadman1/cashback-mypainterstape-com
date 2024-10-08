@@ -55,13 +55,9 @@ const Footer = ({ height }: { height: React.CSSProperties }) => {
               <button onClick={() => handleClick("https://www.instagram.com/mypainterstape/")}>
                 <h3 className="footer-text animated">Instagram</h3>
               </button>
-              {
-                width > 420 ? (
-                  <h4 className="footer-text" style={{ margin: 0 }}>
-                    <span className='italic'>Made with Love. (2024)</span>
-                  </h4>
-                ) : null
-              }
+              <h4 className="footer-text" style={{ margin: 0 }}>
+                <span className='italic'>Made with Love. (2024)</span>
+              </h4>
               <button onClick={() => handleClick("https://www.linkedin.com/company/ptstudios/")}>
                 <h3 className="footer-text animated">LinkedIn</h3>
               </button>

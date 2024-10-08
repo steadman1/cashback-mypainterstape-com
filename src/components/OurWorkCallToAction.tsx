@@ -1,9 +1,11 @@
+import useWindowDimensions from "../hooks/useWindowDimensions";
 import { Work, CallToActionType } from "../objects/Work";
 import CTAContinue from "./CTA/CTAContinue";
 import CTADownloadURLWithNext from "./CTA/CTADownloadURLWithNext";
 import { Link } from "react-router-dom";
 
 function OurWorkCallToAction({ works, workIndex, setWorkIndex, detailIndex, setDetailIndex, lockScroll, setLockScroll }: { works: Work[], workIndex: number, setWorkIndex: React.Dispatch<React.SetStateAction<number>>, detailIndex: number, setDetailIndex: React.Dispatch<React.SetStateAction<number>>, lockScroll: boolean, setLockScroll: React.Dispatch<React.SetStateAction<boolean>> }) {
+    const { width } = useWindowDimensions();
     let ctaComponent;
 
     const ctaType = works[workIndex].details[detailIndex].ctaType;
@@ -29,9 +31,13 @@ function OurWorkCallToAction({ works, workIndex, setWorkIndex, detailIndex, setD
                 <h3 className="bottom-text animated">Terms of Service</h3>
               </button>
             </Link>
-            <h4 className="bottom-text" style={{ margin: 0 }}>
-              <span className='italic'>Made with Love. (2024)</span>
-            </h4>
+            {
+              width > 420 ? (
+                <h4 className="bottom-text" style={{ margin: 0 }}>
+                  <span className='italic'>Made with Love. (2024)</span>
+                </h4>
+              ) : null
+            }
             <Link to={"/privacy"} style={{ textDecoration: 'none' }}>
               <button>
                 <h3 className="bottom-text animated">Privacy Policy</h3>
