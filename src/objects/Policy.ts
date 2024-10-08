@@ -31,7 +31,7 @@ class Policy {
 
   static ponderPrivacyPolicy = new Policy(
     "Ponder Privacy Policy",
-    "October 3, 2024",
+    "October 5, 2024",
     [
       new PolicyContent(
         "Introduction",
@@ -218,14 +218,8 @@ class Policy {
         `If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:`,
         [
           new PolicySubContent(
-            `Email: [Insert Email Address]`
+            `hello@mypainterstape.com`
           ),
-          new PolicySubContent(
-            `Address: [Insert Mailing Address]`
-          ),
-          new PolicySubContent(
-            `Phone: [Insert Phone Number]`
-          )
         ]
       )
     ]
@@ -386,7 +380,7 @@ class Policy {
       ),
       new PolicyContent(
         "DISPUTE RESOLUTION",
-        `Any legal action shall be brought in state and federal courts located in Henrico, Virginia. Claims must be brought within one (1) year of the cause of action.`,
+        `Any legal action shall be brought in state and federal courts located in Virginia. Claims must be brought within one (1) year of the cause of action.`,
         []
       ),
       new PolicyContent(
