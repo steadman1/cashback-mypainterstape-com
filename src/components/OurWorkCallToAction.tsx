@@ -26,11 +26,11 @@ function OurWorkCallToAction({ works, workIndex, setWorkIndex, detailIndex, setD
         <div className="vstack">
           { ctaComponent }
           <div className="hstack space-between" style={{ width: "calc(100vw - 20px)", margin: "5px 0px" }}>
-            <Link to={"/terms-of-service"} style={{ textDecoration: 'none' }}>
+            <a target="_blank" rel="oopener noreferrer" href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" style={{ textDecoration: 'none' }}>
               <button>
-                <h3 className="bottom-text animated">Terms of Service</h3>
+                <h3 className="bottom-text animated">Terms of Use</h3>
               </button>
-            </Link>
+            </a>
             {
               width > 420 ? (
                 <h4 className="bottom-text" style={{ margin: 0 }}>

@@ -28,6 +28,59 @@ class Policy {
     this.updated = updated;
     this.content = content;
   }
+  
+  static ponderSupport = new Policy(
+    "Ponder Support",
+    "October 10, 2024",
+    [
+      new PolicyContent(
+        "Contacting Support",
+        `If you encounter any issues or have questions regarding the Ponder app, you can reach our support team through the following channels:`,
+        [
+          new PolicySubContent("Email: support@mypainterstape.com"),
+        ]
+      ),
+      new PolicyContent(
+        "",
+        "We'll do our best to assist you with any problems or concerns.",
+        []
+      ),
+      new PolicyContent(
+        "Frequently Asked Questions (FAQs)",
+        `Before contacting support, you may find answers to common questions below:`,
+        [
+          new PolicySubContent("_*What is Ponder?*_ Ponder is an innovative dream journal app designed to help you track, analyze, and better understand your dreams, with a particular focus on lucid dreaming. Our advanced features, such as the Motifs function, allow you to log recurring symbols and themes in your dreams for deeper insight."),
+          new PolicySubContent("_*Is my dream data private?*_ Yes, your privacy is our utmost priority. All dream entries and data are stored locally on your device and are not accessible to anyone else. When you opt into AI features like Dreamscape generation or dream analysis, we only share the necessary content with OpenAI's GPT-4 API for processing. OpenAI’s use of this data is governed by their privacy policy."),
+          new PolicySubContent("_*How do I remember to record my dreams?*_ Ponder offers a customizable reminder system, allowing you to set reminders for when you wake up or at any time that fits your schedule, ensuring you can consistently record your dreams."),
+          new PolicySubContent("_*Does Ponder offer dream interpretation?*_ Yes, Ponder offers comprehensive dream analysis and interpretation through a Ponder Plus or Plus Lite subscription, helping you uncover potential meanings behind your dreams and motifs. Alternatively, one-time dream analyses are available for purchase."),
+          new PolicySubContent("_*How are dream analysis and interpretation processed?*_ Ponder uses advanced machine learning algorithms, powered by OpenAI's GPT-4, to analyze your dream entries and interpret potential meanings behind them."),
+          new PolicySubContent("_*How are dreamscapes generated?*_ Ponder generates a customized prompt based on the content and context of your dream entries using machine learning. This prompt is then passed to OpenAI's DALL·E 3 to generate a unique dreamscape image."),
+          new PolicySubContent("_*Can I use Ponder to improve my lucid dreaming skills?*_ Absolutely! Ponder is not only designed for dream logging but also to help enhance your lucid dreaming skills. The app provides tips, techniques, and reminders to assist you in practicing and improving your ability to lucid dream."),
+          new PolicySubContent("_*Can I share my dream logs with others?*_ Yes, you can easily share your dream logs with others. Whether you want insights from friends or simply share an intriguing dream, Ponder makes sharing secure and straightforward.")
+        ]
+      ),
+      new PolicyContent(
+        "Refunds and Payment Inquiries",
+        `All purchases are processed through Apple and the App Store. For refund requests or payment disputes, please contact Apple directly.`,
+        [
+          new PolicySubContent("Apple Support: Visit https://support.apple.com/ for more information on requesting refunds and managing your payment methods.")
+        ]
+      ),
+      new PolicyContent(
+        "Additional Help",
+        `For any other questions, feedback, or inquiries that are not covered in the FAQs, feel free to reach out to us:`,
+        [
+          new PolicySubContent("General Inquiries: hello@mypainterstape.com"),
+          new PolicySubContent("Support Inquiries: support@mypainterstape.com"),
+        ]
+      ),
+      new PolicyContent(
+        "",
+        "Also see our Privacy Policy for more information on how we handle your data: https://ponder.mypainterstape.com/privacy.",
+        []
+      ),
+    ]
+  );
 
   static ponderPrivacyPolicy = new Policy(
     "Ponder Privacy Policy",

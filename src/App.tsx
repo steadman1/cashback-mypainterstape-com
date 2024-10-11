@@ -14,8 +14,8 @@ function App() {
           <Route path="/privacy" element={
             <PolicyEntrance name={"Privacy Policy"} policy={Policy.ponderPrivacyPolicy} work={Work.ponderWork} />
           } />
-          <Route path="/terms-of-service" element={
-            <PolicyEntrance name={"Terms of Service"} policy={Policy.ponderTermsOfService} work={Work.ponderWork} />
+          <Route path="/support" element={
+            <PolicyEntrance name={"Support"} policy={Policy.ponderSupport} work={Work.ponderWork} />
           } />
         </Routes>
       </Router>
