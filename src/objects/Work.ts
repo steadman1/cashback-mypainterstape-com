@@ -197,7 +197,7 @@ class Work {
                 "Dream Deeper with Ponder.",
                 "Coming soon to the iOS App Store.",
                 undefined,
-                "https://apps.apple.com/us/",
+                "https://apps.apple.com/us/app/ponder-lucid-dream-journal/id6587549184",
             ),
         ]
     )
