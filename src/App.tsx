@@ -12,10 +12,10 @@ function App() {
         <Routes>
           <Route path="/" element={<OurWork />} />
           <Route path="/privacy" element={
-            <PolicyEntrance name={"Privacy Policy"} policy={Policy.ponderPrivacyPolicy} work={Work.ponderWork} />
+            <PolicyEntrance name={"Privacy Policy"} policy={Policy.cashbackPrivacyPolicy} work={Work.cashbackWork} />
           } />
           <Route path="/support" element={
-            <PolicyEntrance name={"Support"} policy={Policy.ponderSupport} work={Work.ponderWork} />
+            <PolicyEntrance name={"Support"} policy={Policy.cashbackSupport} work={Work.cashbackWork} />
           } />
         </Routes>
       </Router>

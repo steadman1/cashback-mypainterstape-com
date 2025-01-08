@@ -12,7 +12,7 @@ const PolicyEntrance = ({ name, policy, work }: { name: string, policy: Policy, 
     return isMobile ? { height: `calc(100dvh - ${topBarHeight}px)` } : { height: `60dvh` };
   }
   
-  const textStyle = { color: Work.ponderWork.primaryTextColor.toRgbString(), fontFamily: Work.ponderWork.bodyFont };
+  const textStyle = { color: Work.cashbackWork.primaryTextColor.toRgbString(), fontFamily: Work.cashbackWork.bodyFont };
 
   return (
     <div className='entrance-screen vstack leading'>
@@ -23,7 +23,7 @@ const PolicyEntrance = ({ name, policy, work }: { name: string, policy: Policy, 
           <h4 style={{ ...textStyle, fontWeight: "bold" }}>Last Updated: {replaceSpecialCharacters(policy.updated)}</h4>
           {policy.content.map((section, index) => (
             <div key={index}>
-              <h2 style={{ ...textStyle, fontWeight: "bold" }}>{replaceSpecialCharacters(section.subtitle)}</h2>
+              <h2 style={{ ...textStyle }}>{replaceSpecialCharacters(section.subtitle)}</h2>
               <p style={{ ...textStyle }}>{replaceSpecialCharacters(section.content)}</p>
               {section.subContent && section.subContent.length > 0 && (
                 <ul>

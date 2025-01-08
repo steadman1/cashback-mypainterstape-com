@@ -14,10 +14,10 @@ function OurWork() {
   return (
       <>
           <div data-scroll-section id="our-work" className={ `vstack expanding animated"}` } 
-            style={{ maxWidth: width, backgroundColor: Work.ponderWork.backgroundColor.toRgbString() }}>
-              <OurWorkBar work={Work.ponderWork} color={Work.ponderWork.primaryTextColor.toRgbString()}/>
-              <OurWorkEntrance work={Work.ponderWork} detailIndex={detailIndex} />
-              <OurWorkCallToAction works={[ Work.ponderWork ]} workIndex={workIndex} setWorkIndex={setWorkIndex} detailIndex={detailIndex} setDetailIndex={setDetailIndex} lockScroll={lockScroll} setLockScroll={setLockScroll} />
+            style={{ maxWidth: width, backgroundColor: Work.cashbackWork.backgroundColor.toRgbString() }}>
+              <OurWorkBar work={Work.cashbackWork} color={Work.cashbackWork.lightAccentColor.toRgbString()}/>
+              <OurWorkEntrance work={Work.cashbackWork} detailIndex={detailIndex} />
+              <OurWorkCallToAction works={[ Work.cashbackWork ]} workIndex={workIndex} setWorkIndex={setWorkIndex} detailIndex={detailIndex} setDetailIndex={setDetailIndex} lockScroll={lockScroll} setLockScroll={setLockScroll} />
           </div>
       </>
   );

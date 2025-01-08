@@ -29,13 +29,13 @@ class Policy {
     this.content = content;
   }
   
-  static ponderSupport = new Policy(
-    "Ponder Support",
-    "October 10, 2024",
+  static cashbackSupport = new Policy(
+    "Your Cashback Support",
+    "January 8, 2025",
     [
       new PolicyContent(
         "Contacting Support",
-        `If you encounter any issues or have questions regarding the Ponder app, you can reach our support team through the following channels:`,
+        `If you encounter any issues or have questions regarding the 'Your Cashback' app, you can reach our support team through the following channels:`,
         [
           new PolicySubContent("Email: support@mypainterstape.com"),
         ]
@@ -49,21 +49,15 @@ class Policy {
         "Frequently Asked Questions (FAQs)",
         `Before contacting support, you may find answers to common questions below:`,
         [
-          new PolicySubContent("_*What is Ponder?*_ Ponder is an innovative dream journal app designed to help you track, analyze, and better understand your dreams, with a particular focus on lucid dreaming. Our advanced features, such as the Motifs function, allow you to log recurring symbols and themes in your dreams for deeper insight."),
-          new PolicySubContent("_*Is my dream data private?*_ Yes, your privacy is our utmost priority. All dream entries and data are stored locally on your device and are not accessible to anyone else. When you opt into AI features like Dreamscape generation or dream analysis, we only share the necessary content with OpenAI's GPT-4 API for processing. OpenAI’s use of this data is governed by their privacy policy."),
-          new PolicySubContent("_*How do I remember to record my dreams?*_ Ponder offers a customizable reminder system, allowing you to set reminders for when you wake up or at any time that fits your schedule, ensuring you can consistently record your dreams."),
-          new PolicySubContent("_*Does Ponder offer dream interpretation?*_ Yes, Ponder offers comprehensive dream analysis and interpretation through a Ponder Plus or Plus Lite subscription, helping you uncover potential meanings behind your dreams and motifs. Alternatively, one-time dream analyses are available for purchase."),
-          new PolicySubContent("_*How are dream analysis and interpretation processed?*_ Ponder uses advanced machine learning algorithms, powered by OpenAI's GPT-4, to analyze your dream entries and interpret potential meanings behind them."),
-          new PolicySubContent("_*How are dreamscapes generated?*_ Ponder generates a customized prompt based on the content and context of your dream entries using machine learning. This prompt is then passed to OpenAI's DALL·E 3 to generate a unique dreamscape image."),
-          new PolicySubContent("_*Can I use Ponder to improve my lucid dreaming skills?*_ Absolutely! Ponder is not only designed for dream logging but also to help enhance your lucid dreaming skills. The app provides tips, techniques, and reminders to assist you in practicing and improving your ability to lucid dream."),
-          new PolicySubContent("_*Can I share my dream logs with others?*_ Yes, you can easily share your dream logs with others. Whether you want insights from friends or simply share an intriguing dream, Ponder makes sharing secure and straightforward.")
-        ]
-      ),
-      new PolicyContent(
-        "Refunds and Payment Inquiries",
-        `All purchases are processed through Apple and the App Store. For refund requests or payment disputes, please contact Apple directly.`,
-        [
-          new PolicySubContent("Apple Support: Visit https://support.apple.com/ for more information on requesting refunds and managing your payment methods.")
+          new PolicySubContent("_*What is Your Cashback?*_ Your Cashback is a smart financial app designed to help you maximize rewards (cashback and points) by identifying the best card to use for every purchase. It also provides tools to track and manage your rewards in one place."),
+          new PolicySubContent("_*Is my data private?*_ Yes, your privacy is our top priority. Your card and reward data are processed securely and stored according to industry standards. We never share your personal data without your consent."),
+          new PolicySubContent("_*Can I use Your Cashback with any credit card?*_ Yes, Your Cashback supports all major credit cards and keeps its database up to date with the latest card reward programs."),
+          // new PolicySubContent("_*Can I add custom cards or rewards?*_ Absolutely! You can manually add and customize card details and reward structures to reflect your unique financial setup."),
+          new PolicySubContent("_*Does Your Cashback require a subscription?*_ No, Your Cashback is currently free to use and does not require a subscription."),
+          new PolicySubContent("_*How often is the reward information updated?*_ We update reward programs regularly to ensure that your recommendations are based on the latest card benefits."),
+          new PolicySubContent("_*Can I use Your Cashback for online and in-store purchases?*_ Yes, Your Cashback works for both online and in-store transactions, helping you maximize your rewards wherever you shop."),
+          new PolicySubContent("_*How do I track all my rewards in the app?*_ The app consolidates all your rewards and cashback details in one place, making it easy to track balances, upcoming benefits, and expiration dates."),
+          new PolicySubContent("_*Does the app store my credit card numbers?*_ No, Your Cashback does not require or store your full credit card numbers. You only need to provide what cards you have—personal details are not collected whatsoever.")
         ]
       ),
       new PolicyContent(
@@ -76,19 +70,19 @@ class Policy {
       ),
       new PolicyContent(
         "",
-        "Also see our Privacy Policy for more information on how we handle your data: https://ponder.mypainterstape.com/privacy.",
+        "Also see our Privacy Policy for more information on how we handle your data: https://cashback.mypainterstape.com/privacy.",
         []
       ),
     ]
   );
 
-  static ponderPrivacyPolicy = new Policy(
-    "Ponder Privacy Policy",
-    "October 5, 2024",
+  static cashbackPrivacyPolicy = new Policy(
+    "Your Cashback Privacy Policy",
+    "January 8, 2025",
     [
       new PolicyContent(
         "Introduction",
-        `Welcome to Ponder ("we," "us," or "our"). We are committed to protecting your personal information and your right to privacy. This Privacy Policy describes how we collect, use, disclose, and safeguard your information when you use our mobile application, Ponder (the "App"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the App.`,
+        `Welcome to 'Your Cashback—Maximize Rewards'. We are committed to protecting your personal information and your right to privacy. This Privacy Policy describes how we collect, use, disclose, and safeguard your information when you use our mobile application, Your Cashback (the "App"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the App.`,
         []
       ),
       new PolicyContent(
@@ -110,9 +104,6 @@ class Policy {
           new PolicySubContent(
             `Advertising Data: Information collected for advertising purposes, including anonymized identifiers and demographic information.`
           ),
-          new PolicySubContent(
-            `Dream Entries and Related Data: Your dream entries and related content are stored locally on your device. We do not collect or access this data unless you explicitly opt-in to features that require it, such as dream analysis or automatic title and motif generation.`
-          )
         ]
       ),
       new PolicyContent(
@@ -141,14 +132,8 @@ class Policy {
             `Advertising`
           ),
           new PolicySubContent(
-            `Deliver personalized advertisements within the App based on non-personal information.`
+            `Deliver personalized advertisements within the App based on personal & non-personal information depending on iOS app tracking preferences.`
           ),
-          new PolicySubContent(
-            `Dream Analysis and Feature Enhancement`
-          ),
-          new PolicySubContent(
-            `If you opt-in, we use relevant content from your dream entries to provide analysis and generate titles and motifs through OpenAI's GPT API.`
-          )
         ]
       ),
       new PolicyContent(
@@ -157,9 +142,6 @@ class Policy {
         [
           new PolicySubContent(
             `With Third-Party Service Providers`
-          ),
-          new PolicySubContent(
-            `OpenAI's GPT API: If you opt-in to dream analysis or automatic title and motif generation, we share the necessary content with OpenAI's GPT API for processing. OpenAI's use of your data is governed by their own privacy policy.`
           ),
           new PolicySubContent(
             `Analytics Providers: We may use third-party service providers to monitor and analyze the use of our App.`
@@ -183,9 +165,6 @@ class Policy {
         `We prioritize the security of your data. Measures we implement include:`,
         [
           new PolicySubContent(
-            `Encryption: Data transmitted to OpenAI's GPT API is encrypted in transit.`
-          ),
-          new PolicySubContent(
             `Access Controls: Restrict access to personal information to authorized personnel only.`
           ),
           new PolicySubContent(
@@ -204,9 +183,6 @@ class Policy {
             `Opt-In Features`
           ),
           new PolicySubContent(
-            `Dream Analysis and Automatic Title & Motif Generation: You can opt-in or opt-out of these features at any time through the App settings.`
-          ),
-          new PolicySubContent(
             `Advertising Preferences`
           ),
           new PolicySubContent(
@@ -219,11 +195,6 @@ class Policy {
             `Modify your device settings to control the App's access to certain information.`
           )
         ]
-      ),
-      new PolicyContent(
-        "Children's Privacy",
-        `Our App is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13. If you become aware that a child has provided us with personal information, please contact us.`,
-        []
       ),
       new PolicyContent(
         "International Data Transfers",
@@ -278,16 +249,16 @@ class Policy {
     ]
   );
 
-  static ponderTermsOfService = new Policy(
-    "Ponder Terms of Service",
-    "October 4, 2024",
+  static cashbackTermsOfService = new Policy(
+    "Your Cashback Terms of Service",
+    "January 8, 2025",
     [
       new PolicyContent(
         "AGREEMENT TO OUR LEGAL TERMS",
-        `We are Painter's Tape Studios, doing business as Ponder ("Company," "we," "us," "our"). We operate the mobile application Ponder: Lucid Dream Journal (the "App"), as well as any other related products and services that refer or link to these legal terms (collectively, the "Services").
+        `We are Painter's Tape Studios ("Company," "we," "us," "our"). We operate the mobile application 'Your Cashback—Maximize Rewards' (the "App"), as well as any other related products and services that refer or link to these legal terms (collectively, the "Services").
         You can contact us by email at hello@mypainterstape.com.
         These Legal Terms constitute a legally binding agreement made between you, whether personally or on behalf of an entity ("you"), and Painter's Tape Studios, concerning your access to and use of the Services. You agree that by accessing the Services, you have read, understood, and agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
-        Notifications will be made through the Ponder iOS app.
+        Notifications will be made through the Your Cashback iOS app.
         The Services are intended for users who are at least 13 years of age. All users who are minors in the jurisdiction in which they reside (generally under the age of 18) must have the permission of, and be directly supervised by, their parent or guardian to use the Services. If you are a minor, you must have your parent or guardian read and agree to these Legal Terms prior to you using the Services.
         We recommend that you print a copy of these Legal Terms for your records.`,
         []
@@ -315,7 +286,7 @@ class Policy {
             "You have the legal capacity and you agree to comply with these Legal Terms"
           ),
           new PolicySubContent(
-            "You are not under the age of 13"
+            "You are not under the age of 4"
           ),
           new PolicySubContent(
             "You are not a minor in the jurisdiction in which you reside, or if a minor, you have received parental permission to use the Services"
@@ -330,34 +301,6 @@ class Policy {
             "Your use of the Services will not violate any applicable law or regulation"
           )
         ]
-      ),
-      new PolicyContent(
-        "PRODUCTS",
-        `All products are subject to availability. We reserve the right to discontinue any products at any time for any reason. Prices for all products are subject to change.`,
-        []
-      ),
-      new PolicyContent(
-        "PURCHASES AND PAYMENT",
-        `All purchases for the Services, including subscriptions and in-app purchases, are processed exclusively through Apple and the Apple App Store. We do not handle any payments directly, and we do not collect or store your payment information.
-        
-        You agree to comply with Apple’s payment terms and policies as outlined in the Apple Media Services Terms and Conditions. All billing, payment processing, and related legal matters are governed by Apple, and we have no responsibility for any issues arising from payment processing or related disputes.
-      
-        Any applicable sales tax will be determined and collected by Apple, as required by law, based on the location of your purchase. All payments are subject to Apple’s payment policies and will be charged in the currency specified by the App Store at the time of purchase.`
-      ),
-
-      new PolicyContent(
-        "SUBSCRIPTIONS",
-        `Your subscription will continue and automatically renew unless canceled. You consent to our charging your payment method on a recurring basis until canceled. You can cancel your subscription via the iCloud account in the iOS App Store's Subscription menu. Fee changes may apply.`,
-        []
-      ),
-      new PolicyContent(
-        "REFUNDS POLICY",
-        `All purchases made through the Services are processed by Apple via the Apple App Store. We do not handle payments or manage refunds directly. 
-      
-        As such, any requests for refunds must be submitted to Apple in accordance with their refund policies. Refunds are not guaranteed and are subject to Apple's discretion. Please refer to the Apple Media Services Terms and Conditions for more details on their refund process.
-      
-        All sales are considered final, and we do not provide refunds or returns for any purchases made through the Services.`,
-        []
       ),
       new PolicyContent(
         "PROHIBITED ACTIVITIES",
@@ -413,7 +356,7 @@ class Policy {
       ),
       new PolicyContent(
         "PRIVACY POLICY",
-        `We care about data privacy and security. Please review our Privacy Policy at https://ponder.mypainterstape.com/privacy. By using the Services, you agree to be bound by our Privacy Policy.`,
+        `We care about data privacy and security. Please review our Privacy Policy at https://cashback.mypainterstape.com/privacy. By using the Services, you agree to be bound by our Privacy Policy.`,
         []
       ),
       new PolicyContent(

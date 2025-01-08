@@ -31,10 +31,8 @@ function OurWorkBar({ work, color, fixed=true }: { work: Work, color: string, fi
       </div>
       <Link to={"/"}>
         <div className="hstack">
-          <img className="top-logo" src={"/text_3x.png"} alt={"ponder text logo"} 
+          <img className="top-logo" src={"/cashback/app_icon_rounded.png"} alt={"cashback text logo"} 
             style={{ height: "32px", marginRight: "12px" }}/>
-          <img className="top-logo" src={"/ponder_3x.png"} alt={"ponder cloud logo"}
-            style={{ height: "42px" }}/>
         </div>
       </Link>
       <span style={{ width: "32px"}}></span>

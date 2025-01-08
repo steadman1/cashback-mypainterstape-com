@@ -95,7 +95,7 @@ function DescriptionWithManyImagesWorkDetail({ work, detailIndex }: { work: Work
                         key={ `${detailIndex}-${index}` }
                         className="image animated"
                         src={image}
-                        alt={`Images showcasing the iOS app "Ponder" and ${workDetail.title}`}
+                        alt={`Images showcasing the iOS app "cashback" and ${workDetail.title}`}
                         onLoad={() => {setImageLoaded(true); setup();}}
                         style={{
                             opacity: imageLoaded ? 1 : 0,
